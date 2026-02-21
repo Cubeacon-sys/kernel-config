@@ -36,9 +36,8 @@ make modules_install
 make install
 ```
 4. Configure the bootloader
-``` bash
 > i use grub currently
-```
+``` bash
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 ## References
