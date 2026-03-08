@@ -1,21 +1,25 @@
 # kernel-config
 # My Gentoo Kernel Configuration (laptop)
 ## Kernel Version 
-> I am using the 6.12.58-gentoo-x86_64 kernel
+> I am using the 6.18.12-gentoo-x86_64 kernel
 ## My Features
 - I Have AMD Cpu So most intel specific features is disabled
 - Stripped down drivers with mostly what i need
-- Fully Preemptible Kernel
+- Voluntary Preemptible Kernel
 - Tickless Kernel
 - Schedutil Governor
 - Only Supports ext4 filesystem
 - Zram Support (As Module)
 - I2C Touchpad Via AMD Gpio Pin support
 - Support For Basic Networking like Wifi, ipv4/6 (I don't know about bluetooth i don't use it but it's compiled as module)
+- Support for legacy iptables and virtio networking
+- Support for virtio drivers
+- Support for vhost drivers
 - No systemd support
 - Support openrc, runit, etc
 - Support For gentoo tweaks
 - Some tweaks for my AMD cpu
+- Compiled for my exact architecture
 ## Setup & Build
 > Make sure to run as Root or just sudo (unless you've set permissions for your user on the /usr/src/linux directory)
 0. Make sure your kernel source is symlinked as /usr/src/linux
