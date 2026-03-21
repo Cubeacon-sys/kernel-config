@@ -1,7 +1,7 @@
 # kernel-config
 # My Gentoo Kernel Configuration (laptop)
 ## Kernel Version 
-> I am using the 6.18.12-gentoo-x86_64 kernel
+> I am using the 6.18.18-gentoo-x86_64 kernel
 ## My Features
 - I Have AMD Cpu So most intel specific features is disabled
 - Stripped down drivers with mostly what i need
