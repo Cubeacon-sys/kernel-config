@@ -1,7 +1,7 @@
 # kernel-config
 # My Gentoo Kernel Configuration (laptop)
 ## Kernel Version 
-> I am using the 6.18.26-gentoo-x86_64 kernel
+> I am using the 6.18.27-gentoo-x86_64 kernel
 ## My Features
 - I Have AMD Cpu So most intel specific features is disabled
 - Stripped down drivers with mostly what i need
@@ -20,7 +20,8 @@
 - Support For gentoo tweaks
 - Some tweaks for my AMD cpu
 - Compiled for my exact architecture
-- Added support for esp32 usb or something
+- Added support for esp32 serial usb
+- Removed some drivers because of copy fail and dirty frag
 ## Setup & Build
 > Make sure to run as Root or just sudo (unless you've set permissions for your user on the /usr/src/linux directory)
 0. Make sure your kernel source is symlinked as /usr/src/linux
