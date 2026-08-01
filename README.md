@@ -1,9 +1,10 @@
 # kernel-config
 # My Gentoo Kernel Configuration (laptop)
 ## Kernel Version 
-> I am using the 6.18.35-gentoo-r1-x86_64 kernel
+> I am using the 6.18.41-gentoo-x86_64 kernel
 ## My Features
 - Compiled With Clang and ThinLTO
+- Some Powersaving Features
 - Stripped down drivers with mostly what i need
 - Scheduler Preempted Kernel
 - Tickless Kernel
@@ -11,7 +12,7 @@
 - Only Supports ext4 filesystem
 - Zram Support (As Module)
 - I2C Touchpad Via AMD Gpio Pin support
-- Support For Basic Networking like Wifi, ipv4/6 (I don't know about bluetooth i don't use it but it's compiled as module)
+- Support For Basic Networking like Wifi, ipv4/6
 - Support for legacy iptables and virtio networking
 - Support for virtio drivers
 - Support for vhost drivers
