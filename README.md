@@ -1,7 +1,7 @@
 # kernel-config
 # My Gentoo Kernel Configuration (laptop)
 ## Kernel Version 
-> I am using the 6.18.41-gentoo-x86_64 kernel
+> I am using the 6.18.57-gentoo-x86_64 kernel
 ## My Features
 - Compiled With Clang and ThinLTO
 - Some Powersaving Features
